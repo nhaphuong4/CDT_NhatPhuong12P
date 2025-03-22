@@ -2,3 +2,21 @@ html {
   height: 100%;
   width: 100%;
 }
+
+.username-label {
+  color: #FFB6C1; /* Màu đỏ pastel */
+}
+
+.password-label {
+  color: #1E90FF; /* Màu xanh dương */
+}
+
+#username, #password {
+  border: 2px solid #FFB6C1; /* Viền màu đỏ pastel */
+  padding: 5px;
+  margin: 5px 0;
+}
+
+#password {
+  border-color: #1E90FF; /* Viền màu xanh dương */
+}
